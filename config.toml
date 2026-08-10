@@ -35,7 +35,8 @@ enableGitInfo = true
   [Languages.es]
     title = "¡Hacer tu propio chip de forma más rápida, más fácil y más barata!"
     weight = 2
-    label = "Espa\u00f1ol"
+    label = "Español"
+    disabled = true
 
   [Languages.ua]
     title = "Документація українською"
