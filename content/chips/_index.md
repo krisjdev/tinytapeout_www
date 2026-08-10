@@ -4,6 +4,9 @@ weight: 10
 aliases:
     - /shuttles
 reverseMenu: true
+cascade:
+    type: chips
+    layout: shuttle
 ---
 
 ### Current chips
