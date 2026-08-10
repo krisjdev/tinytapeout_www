@@ -48,5 +48,4 @@ enableGitInfo = true
     title = "Crea il tuo microchip in modo più veloce, più semplice ed economico!"
     weight = 4
     label = "Italiano"
-
-#disableLanguages = ['es', 'it']
+    disabled = true
