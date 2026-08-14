@@ -64,7 +64,7 @@ export function ProjectPage({
     <div>
       <h2>
         {project.address}
-        {project.subtile_addr ? `/${project.subtile_addr}` : null} : {project.title}
+        {project.subtile_addr ? `-${project.subtile_addr}` : null} : {project.title}
       </h2>
 
       <img

@@ -65,7 +65,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 
   var title: string;
   if (projectInfo.subtile_addr) {
-    title = `${projectInfo.address}/${projectInfo.subtile_addr} ${projectInfo.title}`;
+    title = `${projectInfo.address}-${projectInfo.subtile_addr} ${projectInfo.title}`;
   } else {
     title = `${projectInfo.address} ${projectInfo.title}`;
   }
