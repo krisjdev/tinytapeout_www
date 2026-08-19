@@ -38,7 +38,7 @@ function formatShuttleTable({
   sortedProjects.forEach((project) => {
     if (project.type == 'group') return;
     projectEntries.push(
-      <>
+      <React.Fragment key={project.macro}>
         <tr>
           <td>
             {project.address}
@@ -50,7 +50,7 @@ function formatShuttleTable({
           <td>{project.author}</td>
           <td>{project.description}</td>
         </tr>
-      </>,
+      </React.Fragment>,
     );
   });
 
