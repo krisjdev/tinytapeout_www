@@ -35,16 +35,17 @@ enableGitInfo = true
   [Languages.es]
     title = "¡Hacer tu propio chip de forma más rápida, más fácil y más barata!"
     weight = 2
-    label = "Espa\u00f1ol"
+    label = "Español"
+    disabled = true
 
   [Languages.ua]
     title = "Документація українською"
     weight = 3
-    label = "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430"
+    label = "Українська"
+    disabled = true
 
   [Languages.it]
     title = "Crea il tuo microchip in modo più veloce, più semplice ed economico!"
     weight = 4
     label = "Italiano"
-
-#disableLanguages = ['es', 'it']
+    disabled = true
